@@ -16,38 +16,31 @@ body {
   font: inherit;
   vertical-align: baseline;
   background-color: black;
-  background-image: url("../images/background.jpg");
-  background-position: top;
+  background-image: url("../images/space-bg.jpg");
+  background-attachment: scroll;
+  background-position: left top;
   background-repeat: no-repeat;
-  width: 100%;
+  background-size: cover;
 }
 
 #main {
   position: relative;
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
   height: 1000px;
-  background-color: #cfc7c2;
-  border-style: solid;
-  border-color: #8b8683;
-  border-width: 5px;
 }
 
-#floor {
-  background: black;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, black), color-stop(22%, #361d5c), color-stop(79%, #100818), to(black));
-  background: linear-gradient(to bottom, black 2%, #361d5c 22%, #100818 79%, black 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
-  /* IE6-9 */
-  width: auto;
-  height: 150px;
-  margin-top: 30px;
+/*#floor {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,1) 2%, rgb(54, 29, 92) 22%, rgb(16,8,24) 79%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 2%,rgb(54, 29, 92) 22%,rgb(16,8,24) 79%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 2%,rgb(54, 29, 92) 22%,rgb(16,8,24) 79%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+    width: auto;
+    height: 150px;
+    margin-top: 30px;
 }
-
+*/
 div {
   margin: 0;
   padding: 0;
@@ -671,9 +664,9 @@ header {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  height: 150px;
-  width: 50%;
-  margin: 0 auto;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 #title {
@@ -682,7 +675,7 @@ header {
   color: white;
   font-family: 'Satisfy', cursive;
   font-size: 70px;
-  padding: 0;
+  padding-top: 200px;
 }
 
 #solgan {
