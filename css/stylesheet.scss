@@ -23,19 +23,22 @@ body {
 	font: inherit;
     vertical-align: baseline;
     background-color: black;
-    background-image: url("../images/space-bg.jpg");
+    background-image: url("../images/background.jpg");
 	background-attachment: scroll; 
-	background-position: left top; 
+	background-position: top; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 #main{
     position: relative;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
 	height: 1000px;
+	background-color: black;
+	border: rgb(139,134,131) 3px solid;
+	margin-top: 100px;
 }
-/*#floor {
+#floor {
     background: rgb(0,0,0);
     background: -moz-linear-gradient(top,  rgba(0,0,0,1) 2%, rgb(54, 29, 92) 22%, rgb(16,8,24) 79%, rgba(0,0,0,1) 100%);
     background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 2%,rgb(54, 29, 92) 22%,rgb(16,8,24) 79%,rgba(0,0,0,1) 100%);
@@ -45,7 +48,6 @@ body {
     height: 150px;
     margin-top: 30px;
 }
-*/
 div {
 	margin: 0;
 	padding: 0;
@@ -604,15 +606,14 @@ header {
 	vertical-align: baseline;
 	height: 100px;
 	width: 100%;
-	border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.2);
 }
 #title {
     width: 100%;
     text-align: center;
     color: white;
     font-family: 'Satisfy', cursive;
-    font-size: 70px;
-	padding-top: 200px;
+	font-size: 70px;
+	padding-top: 50px;
 }
 #solgan {
     width: 100%;
